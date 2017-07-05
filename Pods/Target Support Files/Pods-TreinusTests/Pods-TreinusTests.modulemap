@@ -1,0 +1,6 @@
+framework module Pods_TreinusTests {
+  umbrella header "Pods-TreinusTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

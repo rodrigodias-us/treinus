@@ -14,6 +14,9 @@
 		03F0143A1F0D49C30091332B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F014381F0D49C30091332B /* LaunchScreen.storyboard */; };
 		03F014451F0D49C40091332B /* TreinusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F014441F0D49C40091332B /* TreinusTests.swift */; };
 		03F014501F0D49C40091332B /* TreinusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F0144F1F0D49C40091332B /* TreinusUITests.swift */; };
+		24A31E0301ABE4009B0A92D6 /* Pods_TreinusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7E0CD1F2B60B67D5F0CD5B /* Pods_TreinusUITests.framework */; };
+		5B9E3C8D606CAA41D1DD6EF6 /* Pods_Treinus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59905B5A4697420A704FD0D5 /* Pods_Treinus.framework */; };
+		C3E2B610550035B0C62622B9 /* Pods_TreinusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B363AF8B15C56E1842DEDF /* Pods_TreinusTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		03F0144B1F0D49C40091332B /* TreinusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreinusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F0144F1F0D49C40091332B /* TreinusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreinusUITests.swift; sourceTree = "<group>"; };
 		03F014511F0D49C40091332B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27EEBD17FD347219CCD6D67B /* Pods-TreinusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreinusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TreinusTests/Pods-TreinusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		40C4DD6FB7083089021D1AAF /* Pods-TreinusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreinusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TreinusTests/Pods-TreinusTests.release.xcconfig"; sourceTree = "<group>"; };
+		46C4BF7B2651A141DB5A50FD /* Pods-TreinusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreinusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TreinusUITests/Pods-TreinusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59905B5A4697420A704FD0D5 /* Pods_Treinus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Treinus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6709AFFE873AFF308E63733F /* Pods-TreinusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreinusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TreinusUITests/Pods-TreinusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6B7E0CD1F2B60B67D5F0CD5B /* Pods_TreinusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreinusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D5C1A22E9D168A5F2344D4 /* Pods-Treinus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treinus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Treinus/Pods-Treinus.debug.xcconfig"; sourceTree = "<group>"; };
+		93B363AF8B15C56E1842DEDF /* Pods_TreinusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreinusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		949B874832FD969C20661A8B /* Pods-Treinus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treinus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Treinus/Pods-Treinus.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B9E3C8D606CAA41D1DD6EF6 /* Pods_Treinus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E2B610550035B0C62622B9 /* Pods_TreinusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24A31E0301ABE4009B0A92D6 /* Pods_TreinusUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				03F014431F0D49C40091332B /* TreinusTests */,
 				03F0144E1F0D49C40091332B /* TreinusUITests */,
 				03F0142D1F0D49C30091332B /* Products */,
+				7E5F8B7FB432946FA87F098F /* Pods */,
+				C14B06DD7E4DE77979F6B65E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = TreinusUITests;
 			sourceTree = "<group>";
 		};
+		7E5F8B7FB432946FA87F098F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86D5C1A22E9D168A5F2344D4 /* Pods-Treinus.debug.xcconfig */,
+				949B874832FD969C20661A8B /* Pods-Treinus.release.xcconfig */,
+				27EEBD17FD347219CCD6D67B /* Pods-TreinusTests.debug.xcconfig */,
+				40C4DD6FB7083089021D1AAF /* Pods-TreinusTests.release.xcconfig */,
+				46C4BF7B2651A141DB5A50FD /* Pods-TreinusUITests.debug.xcconfig */,
+				6709AFFE873AFF308E63733F /* Pods-TreinusUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C14B06DD7E4DE77979F6B65E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59905B5A4697420A704FD0D5 /* Pods_Treinus.framework */,
+				93B363AF8B15C56E1842DEDF /* Pods_TreinusTests.framework */,
+				6B7E0CD1F2B60B67D5F0CD5B /* Pods_TreinusUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03F014541F0D49C40091332B /* Build configuration list for PBXNativeTarget "Treinus" */;
 			buildPhases = (
+				C21D3495BFEE821C02A13562 /* [CP] Check Pods Manifest.lock */,
 				03F014281F0D49C30091332B /* Sources */,
 				03F014291F0D49C30091332B /* Frameworks */,
 				03F0142A1F0D49C30091332B /* Resources */,
+				8ADB321A328E2360AC8E1514 /* [CP] Embed Pods Frameworks */,
+				037BF70D90E2E98E002E7611 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03F014571F0D49C40091332B /* Build configuration list for PBXNativeTarget "TreinusTests" */;
 			buildPhases = (
+				A904181C67DB3E153813CE6E /* [CP] Check Pods Manifest.lock */,
 				03F0143C1F0D49C40091332B /* Sources */,
 				03F0143D1F0D49C40091332B /* Frameworks */,
 				03F0143E1F0D49C40091332B /* Resources */,
+				057C119284DCD5F845135F4F /* [CP] Embed Pods Frameworks */,
+				C2F2B17A720FF3DFFE82C3BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03F0145A1F0D49C40091332B /* Build configuration list for PBXNativeTarget "TreinusUITests" */;
 			buildPhases = (
+				A6D4E29FE4D09A3C9CBF2AEC /* [CP] Check Pods Manifest.lock */,
 				03F014471F0D49C40091332B /* Sources */,
 				03F014481F0D49C40091332B /* Frameworks */,
 				03F014491F0D49C40091332B /* Resources */,
+				D9818345E9B17E1ED8649F02 /* [CP] Embed Pods Frameworks */,
+				09560FC01E4E47C4B3BCFC47 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		037BF70D90E2E98E002E7611 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Treinus/Pods-Treinus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		057C119284DCD5F845135F4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreinusTests/Pods-TreinusTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09560FC01E4E47C4B3BCFC47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreinusUITests/Pods-TreinusUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ADB321A328E2360AC8E1514 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Treinus/Pods-Treinus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6D4E29FE4D09A3C9CBF2AEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A904181C67DB3E153813CE6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C21D3495BFEE821C02A13562 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2F2B17A720FF3DFFE82C3BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreinusTests/Pods-TreinusTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9818345E9B17E1ED8649F02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreinusUITests/Pods-TreinusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		03F014281F0D49C30091332B /* Sources */ = {
@@ -413,6 +600,7 @@
 		};
 		03F014551F0D49C40091332B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D5C1A22E9D168A5F2344D4 /* Pods-Treinus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2Z469Q4BRB;
@@ -426,6 +614,7 @@
 		};
 		03F014561F0D49C40091332B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949B874832FD969C20661A8B /* Pods-Treinus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2Z469Q4BRB;
@@ -439,6 +628,7 @@
 		};
 		03F014581F0D49C40091332B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27EEBD17FD347219CCD6D67B /* Pods-TreinusTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +644,7 @@
 		};
 		03F014591F0D49C40091332B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C4DD6FB7083089021D1AAF /* Pods-TreinusTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +660,7 @@
 		};
 		03F0145B1F0D49C40091332B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C4BF7B2651A141DB5A50FD /* Pods-TreinusUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2Z469Q4BRB;
@@ -483,6 +675,7 @@
 		};
 		03F0145C1F0D49C40091332B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6709AFFE873AFF308E63733F /* Pods-TreinusUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2Z469Q4BRB;
