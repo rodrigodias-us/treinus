@@ -25,11 +25,11 @@ class PlaceTableViewCell: UITableViewCell {
         distanceLabel.text = distanceInKm
         
         if let photo = place.photos?.first {
-            let imageUrl = "https://maps.googleapis.com/maps/api/place/photo?photoreference=\(photo.photoReference!)&sensor=false&maxheight=\(photo.height!)&maxwidth=\(photo.width!)&key=AIzaSyAL7Bsb05zrFp6VL4XGkdn_cPYMvbkQyao"
+            let imageUrl = "https://maps.googleapis.com/maps/api/place/photo?photoreference=\(photo.photoReference!)&sensor=false&maxheight=\(photo.height!)&maxwidth=\(photo.width!)&key=\(Places.shared.googleMapsKey)"
             
-            photoImageView.sd_setImage(with: URL(string:imageUrl))
+            photoImageView.sd_setImage(with: URL(string:imageUrl), placeholderImage: #imageLiteral(resourceName: "CarregandoImagem"))
         } else {
-            photoImageView.sd_setImage(with: nil)
+            photoImageView.image = #imageLiteral(resourceName: "ImagemNaoEncontrada")
         }
     }
 }

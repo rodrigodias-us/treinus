@@ -11,22 +11,16 @@ import XCTest
 
 class PlacesTests: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
     func testGetPlaces() {
-        Places.shared.getPlacesByLocation(location: <#T##String#>) { (place, error) in
-            
+        let expectation = self.expectation(description: "Fetch Places")
+        
+        Places.shared.getPlacesByLocation(location: "-33.8670, 151.1957") { (places, error) in
+            XCTAssertNil(error)
+            XCTAssertGreaterThan((places?.count)!, 0)
+            expectation.fulfill()
         }
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        self.waitForExpectations(timeout: 5.0, handler: nil)
     }
     
 }

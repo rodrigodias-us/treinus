@@ -12,6 +12,7 @@ import MapKit
 class MapViewController: UIViewController {
 
     @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet weak var navigationBarItem: UINavigationItem!
     
     var place:Place? = nil
     
@@ -31,6 +32,9 @@ class MapViewController: UIViewController {
         directionRequest.transportType = .automobile
         
         let directions = MKDirections(request: directionRequest)
+        
+        navigationBarItem.title = "Carregando rota..."
+        
         directions.calculate { (response, error) in
             guard let response = response else {
                 if let error = error {
@@ -45,6 +49,8 @@ class MapViewController: UIViewController {
             
             let rect = route.polyline.boundingMapRect
             self.mapView.setVisibleMapRect(rect, edgePadding: UIEdgeInsetsMake(50, 50, 50, 50), animated: true)
+            
+            self.navigationBarItem.title = "Mapa"
         }
         
         mapView.addAnnotation(destinationAnnotation)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030773541F0EB4500032A38C /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030773531F0EB4500032A38C /* Button.swift */; };
 		033FDB711F0D4F3F00EEA7B0 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB701F0D4F3F00EEA7B0 /* Places.swift */; };
 		033FDB731F0D500200EEA7B0 /* PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB721F0D500200EEA7B0 /* PlacesTests.swift */; };
 		033FDB7A1F0D6B9600EEA7B0 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB761F0D6B9600EEA7B0 /* AlamofireImplementations.swift */; };
@@ -23,10 +24,10 @@
 		033FDB8F1F0D854800EEA7B0 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB8E1F0D854800EEA7B0 /* PlaceTableViewCell.swift */; };
 		033FDB921F0D871A00EEA7B0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB911F0D871A00EEA7B0 /* MapViewController.swift */; };
 		033FDB941F0D906300EEA7B0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033FDB931F0D906300EEA7B0 /* MapKit.framework */; };
+		039330FC1F0EB0A4005134CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039330FB1F0EB0A4005134CC /* Assets.xcassets */; };
 		03F014301F0D49C30091332B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F0142F1F0D49C30091332B /* AppDelegate.swift */; };
 		03F014321F0D49C30091332B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F014311F0D49C30091332B /* ViewController.swift */; };
 		03F014351F0D49C30091332B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F014331F0D49C30091332B /* Main.storyboard */; };
-		03F014371F0D49C30091332B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F014361F0D49C30091332B /* Assets.xcassets */; };
 		03F0143A1F0D49C30091332B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F014381F0D49C30091332B /* LaunchScreen.storyboard */; };
 		5B9E3C8D606CAA41D1DD6EF6 /* Pods_Treinus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59905B5A4697420A704FD0D5 /* Pods_Treinus.framework */; };
 		C3E2B610550035B0C62622B9 /* Pods_TreinusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B363AF8B15C56E1842DEDF /* Pods_TreinusTests.framework */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		030773531F0EB4500032A38C /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Button.swift; path = Elements/Button.swift; sourceTree = "<group>"; };
 		033FDB701F0D4F3F00EEA7B0 /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Places.swift; path = Bussines/Places.swift; sourceTree = "<group>"; };
 		033FDB721F0D500200EEA7B0 /* PlacesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesTests.swift; path = Bussines/PlacesTests.swift; sourceTree = "<group>"; };
 		033FDB761F0D6B9600EEA7B0 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
@@ -59,11 +61,11 @@
 		033FDB8E1F0D854800EEA7B0 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceTableViewCell.swift; path = Cells/PlaceTableViewCell.swift; sourceTree = "<group>"; };
 		033FDB911F0D871A00EEA7B0 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Treinus/Controllers/MapViewController.swift; sourceTree = "<group>"; };
 		033FDB931F0D906300EEA7B0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		039330FB1F0EB0A4005134CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03F0142C1F0D49C30091332B /* Treinus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Treinus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F0142F1F0D49C30091332B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03F014311F0D49C30091332B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Treinus/ViewController.swift; sourceTree = "<group>"; };
 		03F014341F0D49C30091332B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		03F014361F0D49C30091332B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03F014391F0D49C30091332B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03F0143B1F0D49C30091332B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03F014401F0D49C40091332B /* TreinusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreinusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030773521F0EB4310032A38C /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				030773531F0EB4500032A38C /* Button.swift */,
+			);
+			name = Elements;
+			sourceTree = "<group>";
+		};
 		033FDB6F1F0D4EAD00EEA7B0 /* Bussines */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +188,7 @@
 		03F0142E1F0D49C30091332B /* Treinus */ = {
 			isa = PBXGroup;
 			children = (
+				030773521F0EB4310032A38C /* Elements */,
 				033FDB751F0D6B9600EEA7B0 /* APIs */,
 				033FDB7E1F0D6B9F00EEA7B0 /* Models */,
 				033FDB901F0D86BD00EEA7B0 /* Controllers */,
@@ -186,9 +197,9 @@
 				03F0142F1F0D49C30091332B /* AppDelegate.swift */,
 				033FDB8B1F0D6BB300EEA7B0 /* Extensions.swift */,
 				03F014331F0D49C30091332B /* Main.storyboard */,
-				03F014361F0D49C30091332B /* Assets.xcassets */,
 				03F014381F0D49C30091332B /* LaunchScreen.storyboard */,
 				03F0143B1F0D49C30091332B /* Info.plist */,
+				039330FB1F0EB0A4005134CC /* Assets.xcassets */,
 			);
 			path = Treinus;
 			sourceTree = "<group>";
@@ -316,7 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03F0143A1F0D49C30091332B /* LaunchScreen.storyboard in Resources */,
-				03F014371F0D49C30091332B /* Assets.xcassets in Resources */,
+				039330FC1F0EB0A4005134CC /* Assets.xcassets in Resources */,
 				03F014351F0D49C30091332B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +455,7 @@
 				033FDB8C1F0D6BB300EEA7B0 /* Extensions.swift in Sources */,
 				033FDB8F1F0D854800EEA7B0 /* PlaceTableViewCell.swift in Sources */,
 				033FDB921F0D871A00EEA7B0 /* MapViewController.swift in Sources */,
+				030773541F0EB4500032A38C /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

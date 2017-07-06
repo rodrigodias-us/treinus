@@ -12,6 +12,11 @@ import CoreLocation
 class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var messageView: UIView!
+    @IBOutlet weak var messageText: UILabel!
+    @IBOutlet weak var messageTryButton: Button!
+    @IBOutlet weak var messageImage: UIImageView!
+    @IBOutlet weak var messageActivityIndicator: UIActivityIndicatorView!
     
     let locationManager = CLLocationManager()
     var currentLocation:CLLocation?
@@ -20,13 +25,25 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        messageImage.image = #imageLiteral(resourceName: "MapIcon")
+        messageText.text = "Solicitando autorização"
+        messageTryButton.isHidden = true
+        messageActivityIndicator.startAnimating()
+        
         locationManager.requestAlwaysAuthorization()
         
         if CLLocationManager.locationServicesEnabled() {
+            messageText.text = "Obtendo sua localização"
             locationManager.delegate = self
             locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
             locationManager.requestLocation()
+        } else {
+            messageImage.image = #imageLiteral(resourceName: "MapIcon")
+            messageText.text = "Não foi possível obter sua localização"
+            messageTryButton.isHidden = false
+            messageActivityIndicator.stopAnimating()
         }
+        
     }
     
     func getPlaces() {
@@ -36,7 +53,14 @@ class ViewController: UIViewController {
                     return e1.distanceOf(coordinate: self.currentLocation!) < e2.distanceOf(coordinate: self.currentLocation!)
                 })
                 self.places = result
+                self.messageView.isHidden = true
+                self.messageView.isUserInteractionEnabled = false
                 self.tableView.reloadData()
+            } else {
+                self.messageImage.image = #imageLiteral(resourceName: "GymIcon")
+                self.messageText.text = "Não encontramos academias próximo a sua localização."
+                self.messageTryButton.isHidden = false
+                self.messageActivityIndicator.stopAnimating()
             }
         })
     }
@@ -50,8 +74,18 @@ class ViewController: UIViewController {
 extension ViewController: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.first {
+            messageImage.image = #imageLiteral(resourceName: "GymIcon")
+            messageText.text = "Encontrando academias próximo a você"
+            messageTryButton.isHidden = true
+            messageActivityIndicator.startAnimating()
+            
             self.currentLocation = location
             getPlaces()
+        } else {
+            messageImage.image = #imageLiteral(resourceName: "MapIcon")
+            messageText.text = "Não foi possível obter sua localização"
+            messageTryButton.isHidden = false
+            messageActivityIndicator.stopAnimating()
         }
     }
     
