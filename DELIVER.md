@@ -4,7 +4,7 @@ Utilizei uma arquitetura que já conheço MVC com Manager Providers e Bussines (
 
 Segue abaixo uma representação visual da arquitetura:
 
-![arquitetura.png](http://)
+![arquitetura.png](https://drive.google.com/uc?export=view&id=0B8C02BR9xVPzX0U1VDJCZTBzNEU)
 
 # Se tivesse mais tempo
 
