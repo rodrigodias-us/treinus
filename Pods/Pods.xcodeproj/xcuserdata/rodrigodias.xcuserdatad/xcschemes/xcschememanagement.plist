@@ -9,16 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>GooglePlacesAPI.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>ObjectMapper.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Treinus.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -29,7 +19,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-TreinusUITests.xcscheme</key>
+		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,12 +27,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1B86188FA4DF8F89EFEE3ACB81964A54</key>
+		<key>0D502D25D1630CAAE287FFBA7E3D1B88</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>88ACB4E8E0FCBA6305260D177DE18A26</key>
+		<key>615A0508DF8CF95F5DE41BA4929AC877</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -53,16 +43,6 @@
 			<true/>
 		</dict>
 		<key>C8229B2E995EE2DA0206D84814652C72</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D82432A8B6F8DD4EE7EF779662BB6361</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E2D1881E81BC6D5A00C6969A8A0DD950</key>
 		<dict>
 			<key>primary</key>
 			<true/>

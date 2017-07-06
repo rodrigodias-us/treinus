@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033FDB711F0D4F3F00EEA7B0 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB701F0D4F3F00EEA7B0 /* Places.swift */; };
+		033FDB731F0D500200EEA7B0 /* PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB721F0D500200EEA7B0 /* PlacesTests.swift */; };
+		033FDB7A1F0D6B9600EEA7B0 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB761F0D6B9600EEA7B0 /* AlamofireImplementations.swift */; };
+		033FDB7B1F0D6B9600EEA7B0 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB771F0D6B9600EEA7B0 /* APIHelper.swift */; };
+		033FDB7C1F0D6B9600EEA7B0 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB781F0D6B9600EEA7B0 /* APIs.swift */; };
+		033FDB7D1F0D6B9600EEA7B0 /* PlacesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB791F0D6B9600EEA7B0 /* PlacesAPI.swift */; };
+		033FDB851F0D6B9F00EEA7B0 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB7F1F0D6B9F00EEA7B0 /* Geometry.swift */; };
+		033FDB861F0D6B9F00EEA7B0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB801F0D6B9F00EEA7B0 /* Location.swift */; };
+		033FDB871F0D6B9F00EEA7B0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB811F0D6B9F00EEA7B0 /* Models.swift */; };
+		033FDB881F0D6B9F00EEA7B0 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB821F0D6B9F00EEA7B0 /* Photo.swift */; };
+		033FDB891F0D6B9F00EEA7B0 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB831F0D6B9F00EEA7B0 /* Place.swift */; };
+		033FDB8A1F0D6B9F00EEA7B0 /* ResponseApiMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB841F0D6B9F00EEA7B0 /* ResponseApiMaps.swift */; };
+		033FDB8C1F0D6BB300EEA7B0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB8B1F0D6BB300EEA7B0 /* Extensions.swift */; };
+		033FDB8F1F0D854800EEA7B0 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB8E1F0D854800EEA7B0 /* PlaceTableViewCell.swift */; };
+		033FDB921F0D871A00EEA7B0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033FDB911F0D871A00EEA7B0 /* MapViewController.swift */; };
+		033FDB941F0D906300EEA7B0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033FDB931F0D906300EEA7B0 /* MapKit.framework */; };
 		03F014301F0D49C30091332B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F0142F1F0D49C30091332B /* AppDelegate.swift */; };
 		03F014321F0D49C30091332B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F014311F0D49C30091332B /* ViewController.swift */; };
 		03F014351F0D49C30091332B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F014331F0D49C30091332B /* Main.storyboard */; };
 		03F014371F0D49C30091332B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F014361F0D49C30091332B /* Assets.xcassets */; };
 		03F0143A1F0D49C30091332B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F014381F0D49C30091332B /* LaunchScreen.storyboard */; };
-		03F014451F0D49C40091332B /* TreinusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F014441F0D49C40091332B /* TreinusTests.swift */; };
-		03F014501F0D49C40091332B /* TreinusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F0144F1F0D49C40091332B /* TreinusUITests.swift */; };
-		24A31E0301ABE4009B0A92D6 /* Pods_TreinusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7E0CD1F2B60B67D5F0CD5B /* Pods_TreinusUITests.framework */; };
 		5B9E3C8D606CAA41D1DD6EF6 /* Pods_Treinus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59905B5A4697420A704FD0D5 /* Pods_Treinus.framework */; };
 		C3E2B610550035B0C62622B9 /* Pods_TreinusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B363AF8B15C56E1842DEDF /* Pods_TreinusTests.framework */; };
 /* End PBXBuildFile section */
@@ -27,35 +40,37 @@
 			remoteGlobalIDString = 03F0142B1F0D49C30091332B;
 			remoteInfo = Treinus;
 		};
-		03F0144C1F0D49C40091332B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 03F014241F0D49C30091332B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 03F0142B1F0D49C30091332B;
-			remoteInfo = Treinus;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		033FDB701F0D4F3F00EEA7B0 /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Places.swift; path = Bussines/Places.swift; sourceTree = "<group>"; };
+		033FDB721F0D500200EEA7B0 /* PlacesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesTests.swift; path = Bussines/PlacesTests.swift; sourceTree = "<group>"; };
+		033FDB761F0D6B9600EEA7B0 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
+		033FDB771F0D6B9600EEA7B0 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		033FDB781F0D6B9600EEA7B0 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		033FDB791F0D6B9600EEA7B0 /* PlacesAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesAPI.swift; sourceTree = "<group>"; };
+		033FDB7F1F0D6B9F00EEA7B0 /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		033FDB801F0D6B9F00EEA7B0 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		033FDB811F0D6B9F00EEA7B0 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		033FDB821F0D6B9F00EEA7B0 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		033FDB831F0D6B9F00EEA7B0 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		033FDB841F0D6B9F00EEA7B0 /* ResponseApiMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseApiMaps.swift; sourceTree = "<group>"; };
+		033FDB8B1F0D6BB300EEA7B0 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		033FDB8E1F0D854800EEA7B0 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceTableViewCell.swift; path = Cells/PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		033FDB911F0D871A00EEA7B0 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Treinus/Controllers/MapViewController.swift; sourceTree = "<group>"; };
+		033FDB931F0D906300EEA7B0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		03F0142C1F0D49C30091332B /* Treinus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Treinus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F0142F1F0D49C30091332B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03F014311F0D49C30091332B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03F014311F0D49C30091332B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Treinus/ViewController.swift; sourceTree = "<group>"; };
 		03F014341F0D49C30091332B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03F014361F0D49C30091332B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03F014391F0D49C30091332B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03F0143B1F0D49C30091332B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03F014401F0D49C40091332B /* TreinusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreinusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		03F014441F0D49C40091332B /* TreinusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreinusTests.swift; sourceTree = "<group>"; };
 		03F014461F0D49C40091332B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03F0144B1F0D49C40091332B /* TreinusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreinusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		03F0144F1F0D49C40091332B /* TreinusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreinusUITests.swift; sourceTree = "<group>"; };
-		03F014511F0D49C40091332B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27EEBD17FD347219CCD6D67B /* Pods-TreinusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreinusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TreinusTests/Pods-TreinusTests.debug.xcconfig"; sourceTree = "<group>"; };
 		40C4DD6FB7083089021D1AAF /* Pods-TreinusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreinusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TreinusTests/Pods-TreinusTests.release.xcconfig"; sourceTree = "<group>"; };
-		46C4BF7B2651A141DB5A50FD /* Pods-TreinusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreinusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TreinusUITests/Pods-TreinusUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		59905B5A4697420A704FD0D5 /* Pods_Treinus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Treinus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6709AFFE873AFF308E63733F /* Pods-TreinusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreinusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TreinusUITests/Pods-TreinusUITests.release.xcconfig"; sourceTree = "<group>"; };
-		6B7E0CD1F2B60B67D5F0CD5B /* Pods_TreinusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreinusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D5C1A22E9D168A5F2344D4 /* Pods-Treinus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treinus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Treinus/Pods-Treinus.debug.xcconfig"; sourceTree = "<group>"; };
 		93B363AF8B15C56E1842DEDF /* Pods_TreinusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreinusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		949B874832FD969C20661A8B /* Pods-Treinus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treinus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Treinus/Pods-Treinus.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033FDB941F0D906300EEA7B0 /* MapKit.framework in Frameworks */,
 				5B9E3C8D606CAA41D1DD6EF6 /* Pods_Treinus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,23 +94,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03F014481F0D49C40091332B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24A31E0301ABE4009B0A92D6 /* Pods_TreinusUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		033FDB6F1F0D4EAD00EEA7B0 /* Bussines */ = {
+			isa = PBXGroup;
+			children = (
+				033FDB701F0D4F3F00EEA7B0 /* Places.swift */,
+			);
+			name = Bussines;
+			sourceTree = "<group>";
+		};
+		033FDB741F0D500900EEA7B0 /* Bussines */ = {
+			isa = PBXGroup;
+			children = (
+				033FDB721F0D500200EEA7B0 /* PlacesTests.swift */,
+			);
+			name = Bussines;
+			sourceTree = "<group>";
+		};
+		033FDB751F0D6B9600EEA7B0 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				033FDB761F0D6B9600EEA7B0 /* AlamofireImplementations.swift */,
+				033FDB771F0D6B9600EEA7B0 /* APIHelper.swift */,
+				033FDB781F0D6B9600EEA7B0 /* APIs.swift */,
+				033FDB791F0D6B9600EEA7B0 /* PlacesAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		033FDB7E1F0D6B9F00EEA7B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				033FDB7F1F0D6B9F00EEA7B0 /* Geometry.swift */,
+				033FDB801F0D6B9F00EEA7B0 /* Location.swift */,
+				033FDB811F0D6B9F00EEA7B0 /* Models.swift */,
+				033FDB821F0D6B9F00EEA7B0 /* Photo.swift */,
+				033FDB831F0D6B9F00EEA7B0 /* Place.swift */,
+				033FDB841F0D6B9F00EEA7B0 /* ResponseApiMaps.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		033FDB8D1F0D852400EEA7B0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				033FDB8E1F0D854800EEA7B0 /* PlaceTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		033FDB901F0D86BD00EEA7B0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				03F014311F0D49C30091332B /* ViewController.swift */,
+				033FDB911F0D871A00EEA7B0 /* MapViewController.swift */,
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		03F014231F0D49C30091332B = {
 			isa = PBXGroup;
 			children = (
 				03F0142E1F0D49C30091332B /* Treinus */,
 				03F014431F0D49C40091332B /* TreinusTests */,
-				03F0144E1F0D49C40091332B /* TreinusUITests */,
 				03F0142D1F0D49C30091332B /* Products */,
 				7E5F8B7FB432946FA87F098F /* Pods */,
 				C14B06DD7E4DE77979F6B65E /* Frameworks */,
@@ -106,7 +171,6 @@
 			children = (
 				03F0142C1F0D49C30091332B /* Treinus.app */,
 				03F014401F0D49C40091332B /* TreinusTests.xctest */,
-				03F0144B1F0D49C40091332B /* TreinusUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,8 +178,13 @@
 		03F0142E1F0D49C30091332B /* Treinus */ = {
 			isa = PBXGroup;
 			children = (
+				033FDB751F0D6B9600EEA7B0 /* APIs */,
+				033FDB7E1F0D6B9F00EEA7B0 /* Models */,
+				033FDB901F0D86BD00EEA7B0 /* Controllers */,
+				033FDB8D1F0D852400EEA7B0 /* Cells */,
+				033FDB6F1F0D4EAD00EEA7B0 /* Bussines */,
 				03F0142F1F0D49C30091332B /* AppDelegate.swift */,
-				03F014311F0D49C30091332B /* ViewController.swift */,
+				033FDB8B1F0D6BB300EEA7B0 /* Extensions.swift */,
 				03F014331F0D49C30091332B /* Main.storyboard */,
 				03F014361F0D49C30091332B /* Assets.xcassets */,
 				03F014381F0D49C30091332B /* LaunchScreen.storyboard */,
@@ -127,19 +196,10 @@
 		03F014431F0D49C40091332B /* TreinusTests */ = {
 			isa = PBXGroup;
 			children = (
-				03F014441F0D49C40091332B /* TreinusTests.swift */,
 				03F014461F0D49C40091332B /* Info.plist */,
+				033FDB741F0D500900EEA7B0 /* Bussines */,
 			);
 			path = TreinusTests;
-			sourceTree = "<group>";
-		};
-		03F0144E1F0D49C40091332B /* TreinusUITests */ = {
-			isa = PBXGroup;
-			children = (
-				03F0144F1F0D49C40091332B /* TreinusUITests.swift */,
-				03F014511F0D49C40091332B /* Info.plist */,
-			);
-			path = TreinusUITests;
 			sourceTree = "<group>";
 		};
 		7E5F8B7FB432946FA87F098F /* Pods */ = {
@@ -149,8 +209,6 @@
 				949B874832FD969C20661A8B /* Pods-Treinus.release.xcconfig */,
 				27EEBD17FD347219CCD6D67B /* Pods-TreinusTests.debug.xcconfig */,
 				40C4DD6FB7083089021D1AAF /* Pods-TreinusTests.release.xcconfig */,
-				46C4BF7B2651A141DB5A50FD /* Pods-TreinusUITests.debug.xcconfig */,
-				6709AFFE873AFF308E63733F /* Pods-TreinusUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -158,9 +216,9 @@
 		C14B06DD7E4DE77979F6B65E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				033FDB931F0D906300EEA7B0 /* MapKit.framework */,
 				59905B5A4697420A704FD0D5 /* Pods_Treinus.framework */,
 				93B363AF8B15C56E1842DEDF /* Pods_TreinusTests.framework */,
-				6B7E0CD1F2B60B67D5F0CD5B /* Pods_TreinusUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -209,33 +267,13 @@
 			productReference = 03F014401F0D49C40091332B /* TreinusTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		03F0144A1F0D49C40091332B /* TreinusUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 03F0145A1F0D49C40091332B /* Build configuration list for PBXNativeTarget "TreinusUITests" */;
-			buildPhases = (
-				A6D4E29FE4D09A3C9CBF2AEC /* [CP] Check Pods Manifest.lock */,
-				03F014471F0D49C40091332B /* Sources */,
-				03F014481F0D49C40091332B /* Frameworks */,
-				03F014491F0D49C40091332B /* Resources */,
-				D9818345E9B17E1ED8649F02 /* [CP] Embed Pods Frameworks */,
-				09560FC01E4E47C4B3BCFC47 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				03F0144D1F0D49C40091332B /* PBXTargetDependency */,
-			);
-			name = TreinusUITests;
-			productName = TreinusUITests;
-			productReference = 03F0144B1F0D49C40091332B /* TreinusUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		03F014241F0D49C30091332B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Rodrigo Dias";
@@ -246,12 +284,6 @@
 						ProvisioningStyle = Automatic;
 					};
 					03F0143F1F0D49C40091332B = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 2Z469Q4BRB;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 03F0142B1F0D49C30091332B;
-					};
-					03F0144A1F0D49C40091332B = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2Z469Q4BRB;
 						ProvisioningStyle = Automatic;
@@ -274,7 +306,6 @@
 			targets = (
 				03F0142B1F0D49C30091332B /* Treinus */,
 				03F0143F1F0D49C40091332B /* TreinusTests */,
-				03F0144A1F0D49C40091332B /* TreinusUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -291,13 +322,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		03F0143E1F0D49C40091332B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		03F014491F0D49C40091332B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -337,21 +361,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreinusTests/Pods-TreinusTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		09560FC01E4E47C4B3BCFC47 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreinusUITests/Pods-TreinusUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8ADB321A328E2360AC8E1514 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -365,21 +374,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Treinus/Pods-Treinus-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A6D4E29FE4D09A3C9CBF2AEC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		A904181C67DB3E153813CE6E /* [CP] Check Pods Manifest.lock */ = {
@@ -427,21 +421,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreinusTests/Pods-TreinusTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D9818345E9B17E1ED8649F02 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreinusUITests/Pods-TreinusUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -449,8 +428,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033FDB7D1F0D6B9600EEA7B0 /* PlacesAPI.swift in Sources */,
 				03F014321F0D49C30091332B /* ViewController.swift in Sources */,
 				03F014301F0D49C30091332B /* AppDelegate.swift in Sources */,
+				033FDB891F0D6B9F00EEA7B0 /* Place.swift in Sources */,
+				033FDB7A1F0D6B9600EEA7B0 /* AlamofireImplementations.swift in Sources */,
+				033FDB861F0D6B9F00EEA7B0 /* Location.swift in Sources */,
+				033FDB8A1F0D6B9F00EEA7B0 /* ResponseApiMaps.swift in Sources */,
+				033FDB7B1F0D6B9600EEA7B0 /* APIHelper.swift in Sources */,
+				033FDB851F0D6B9F00EEA7B0 /* Geometry.swift in Sources */,
+				033FDB881F0D6B9F00EEA7B0 /* Photo.swift in Sources */,
+				033FDB7C1F0D6B9600EEA7B0 /* APIs.swift in Sources */,
+				033FDB711F0D4F3F00EEA7B0 /* Places.swift in Sources */,
+				033FDB871F0D6B9F00EEA7B0 /* Models.swift in Sources */,
+				033FDB8C1F0D6BB300EEA7B0 /* Extensions.swift in Sources */,
+				033FDB8F1F0D854800EEA7B0 /* PlaceTableViewCell.swift in Sources */,
+				033FDB921F0D871A00EEA7B0 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,15 +451,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03F014451F0D49C40091332B /* TreinusTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		03F014471F0D49C40091332B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				03F014501F0D49C40091332B /* TreinusUITests.swift in Sources */,
+				033FDB731F0D500200EEA7B0 /* PlacesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,11 +462,6 @@
 			isa = PBXTargetDependency;
 			target = 03F0142B1F0D49C30091332B /* Treinus */;
 			targetProxy = 03F014411F0D49C40091332B /* PBXContainerItemProxy */;
-		};
-		03F0144D1F0D49C40091332B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 03F0142B1F0D49C30091332B /* Treinus */;
-			targetProxy = 03F0144C1F0D49C40091332B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -658,36 +638,6 @@
 			};
 			name = Release;
 		};
-		03F0145B1F0D49C40091332B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46C4BF7B2651A141DB5A50FD /* Pods-TreinusUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 2Z469Q4BRB;
-				INFOPLIST_FILE = TreinusUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.TreinusUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Treinus;
-			};
-			name = Debug;
-		};
-		03F0145C1F0D49C40091332B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6709AFFE873AFF308E63733F /* Pods-TreinusUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 2Z469Q4BRB;
-				INFOPLIST_FILE = TreinusUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.TreinusUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Treinus;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -707,6 +657,7 @@
 				03F014561F0D49C40091332B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03F014571F0D49C40091332B /* Build configuration list for PBXNativeTarget "TreinusTests" */ = {
 			isa = XCConfigurationList;
@@ -715,14 +666,7 @@
 				03F014591F0D49C40091332B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		03F0145A1F0D49C40091332B /* Build configuration list for PBXNativeTarget "TreinusUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				03F0145B1F0D49C40091332B /* Debug */,
-				03F0145C1F0D49C40091332B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

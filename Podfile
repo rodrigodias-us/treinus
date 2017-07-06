@@ -1,3 +1,4 @@
+source 'https://github.com/CocoaPods/Specs.git'
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
@@ -6,14 +7,10 @@ target 'Treinus' do
   use_frameworks!
 
   # Pods for Treinus
-  pod 'GooglePlacesAPI', '~> 1.1'
+  pod 'Alamofire', '~> 4.0'
+  pod 'SDWebImage', '~>3.8'
 
   target 'TreinusTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'TreinusUITests' do
     inherit! :search_paths
     # Pods for testing
   end
