@@ -8,6 +8,8 @@ Segue abaixo uma representação visual da arquitetura:
 
 # Se tivesse mais tempo
 
+Queria ter feito mais commits, porém na pressa não consegui muito organizar os commits e acabei deixando tudo junto. Não seguindo um GitFlow.
+
 Gostaria de ter acabado o tentar novamente para quando falha a requisição de permissão ou de busca da localização do app.
 
 Queria também ter colocar mais animações nas transições e também no loading.
